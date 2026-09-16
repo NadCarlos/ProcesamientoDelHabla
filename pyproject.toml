@@ -1,0 +1,26 @@
+[project]
+name = "procesamientodelhabla"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nadalig Carlos", email = "c.nadalig@itecriocuarto.org.ar" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "nltk>=3.10.3",
+    "pandas>=3.0.5",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "wordcloud>=1.9.6",
+]
+
+[project.scripts]
+procesamientodelhabla = "procesamientodelhabla:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
