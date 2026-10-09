@@ -9,12 +9,14 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
+    "gensim>=4.4.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.11.1",
     "nltk>=3.10.3",
     "pandas>=3.0.5",
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
+    "spacy>=3.8.16",
     "wordcloud>=1.9.6",
 ]
 
